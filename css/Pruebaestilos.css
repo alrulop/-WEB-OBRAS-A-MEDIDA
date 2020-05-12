@@ -1,0 +1,134 @@
+/*=============================================
+GLOBAL
+=============================================*/
+*{
+  padding: 0;
+  margin:0; 
+  -webkit-boz-sizing:border-box;
+  -moz-boz-sizing:border-box;
+  -ms-boz-sizing:border-box;
+  -o-boz-sizing:border-box;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, input, textarea, select, button{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+}
+
+ul, ol{
+  list-style: none;
+}
+
+a:visited, a:link, a:focus, a:hover, a:active{
+  list-style: none;
+  text-decoration: none;
+}
+/*=============================================
+  HEADER
+  =============================================*/
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+.fixed-top {
+  position: fixed;
+  z-index: 1000;
+  top: 0; 
+}
+
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.3); 
+}
+
+.top-nav-collapse {
+  background-color: #1C2331;
+ }
+
+.logoFoto{
+  background-image: url('../img/manPared.jpg'); 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+.imgLogo{
+    width: 150px;
+  }
+
+#iconoCuota{
+  font-weight: 500;
+  font-size: 2em;
+  color: #D8D8D8;
+}
+
+#textoCuota{
+  font-weight: 500;
+  font-size: 1em;
+  color: #D8D8D8; 
+}
+
+#iconoFhone{
+  font-weight: 500;
+  font-size: 2em;
+  color: #D8D8D8;
+}
+
+#textoFhone{
+  font-weight: 500;
+  font-size: 1em;
+  color: #D8D8D8;
+}
+
+.page-footer {
+  background-color: #1C2331; 
+}
+
+  /*=============================================
+  ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+  =============================================*/
+  
+  @media (max-width:1199px) and (min-width:992px){
+  
+    
+  }
+  
+  /*=============================================
+  ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+  =============================================*/
+  
+  @media (max-width:991px) and (min-width:768px){
+  
+  html,
+  body,
+  header,
+  .view {
+    height: 650px;
+  }
+  .navbar:not(.top-nav-collapse) {
+     background: #1C2331!important;
+  }
+
+}
+  
+  /*=============================================
+  MOVIL (XS revisamos en 320px)
+  =============================================*/
+  
+  @media (max-width:767px){
+  
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+   }
+  .navbar {
+    background-color: #1C2331; 
+  }
+
+}
+
